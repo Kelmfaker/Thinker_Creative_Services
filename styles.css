@@ -56,4 +56,27 @@ body {
 .button:hover {
     background-color: #4d1118d8;
 }
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature h2 {
+    margin-top: 10px;
+}
+
+.feature p {
+    margin-top: 5px;
+}
