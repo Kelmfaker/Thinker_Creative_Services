@@ -21,4 +21,7 @@ __This project concerns the design of a website for a company that designs logos
 
 
 ## Licensing
+
+## screen project image
+<img src="https://github.com/Kelmfaker/portfolio-landingpage/blob/main/img/project%20screen.png?raw=true">
  
