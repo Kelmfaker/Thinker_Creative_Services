@@ -5,10 +5,12 @@ body {
 }
 
 .header {
-    background-color: #4d1118d8;
+    background-color: #10022b;
     color: rgb(244, 243, 252);
     padding: 15px;
     text-align: center;
+    text-decoration: solid;
+    text-overflow: ellipsis;
 }
 
 .cover-image {
@@ -78,5 +80,36 @@ body {
 }
 
 .feature p {
+    margin-top: 5px;
+}
+.about {
+    padding: 20px;
+    background-color: #68040457;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.team {
+        display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.team-member {
+    text-align: center;
+
+    width: 30%;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+}
+
+.team-member p {
     margin-top: 5px;
 }
