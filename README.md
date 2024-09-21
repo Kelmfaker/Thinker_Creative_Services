@@ -47,3 +47,8 @@ __I am currently focused on self-improvement and skill development, particularly
 
 <img src="https://github.com/Kelmfaker/portfolio-landingpage/blob/main/img/project%20screen.png?raw=true">
  
+## Google Document
+
+https://docs.google.com/document/d/1qrjJvBbxQl8dr76pIKM4eKcj3Qt5f_k0473mKNjMOUE/edit?usp=sharing
+
+https://docs.google.com/document/d/1yyFuoK_UYxftyM5EACESuflDOr_E3ZteyD5H933NJQw/edit?usp=sharing
