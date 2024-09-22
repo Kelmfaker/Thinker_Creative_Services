@@ -6,23 +6,38 @@
     <title>Thinker Creative Services</title>
      <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="styles.css">
+     <!-- Link to the external font-awesome file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <!-- Link to the external JavaScript file -->
     <script src="script.js" defer></script>
 </head>
 <body>
 
     <!-- Header section -->
-    <div class="header">
-        <h1>Thinker Creative Services</h1>
-    </div>
+     <header>
+       
+            <a href="#" class="logo">Thinker Creative Services</a>
+            <nav class="navigation">
+                <a href="#Sections">Sections</a>
+                <a href="#Features">Features</a>
+                <a href="#about">About us</a>
+            </nav>
+        
+     </header>
+   
     <!-- Cover image section -->
-    <div class="cover-image"></div>
+    <section class="cover-image">
+        
+        </section>
+    
     <!-- Description section -->
-    <div class="description">
-        <p>Welcome to my first Portfolio at Alx Software Engeenering Program 2024</p>
+    <section class="description">
+        <h2>Welcome to my first Portfolio at Alx Software Engeenering Program 2024</h2>
     </div>
-     <!-- Navigation bar -->
-    <div class="nav">
+    </section>
+     <!-- Navigation bar 
+      <section class="Services" id="Sections">
+    <nav class="nav">
         <a href="#accueil">Accueil</a>
         <a href="#logo">Logo</a>
         <a href="#businesscard">Business Card</a>
@@ -31,48 +46,111 @@
         <a href="#poster">Poster</a>
         <a href="#others">Others</a>
                
-    </div>
-     <!-- Features section -->
-    <div class="features">
-        <!-- Feature 1 -->
-        <div class="feature">
-            <img src="img/logo.jpg" alt="Feature 1 Image">
-            <h2>Logo Design</h2>
+    </nav>
+</section>
+-->
+     <!--Sections -->
+    <section class="Sections" id="Sections">
+        <h2 class="title">Sections</h2>
+        <!-- Section 1 -->
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <div class="info">
+            <h2>Graphic Design</h2>
             <p>Logo Design: Examples of our work</p>
+                </div>
+            
         </div>
-        <!-- Feature 2 -->
-        <div class="feature">
-            <img src="img/rollup.jpg" alt="Feature 3 Image">
-            <h2>Rullup Design</h2>
+        <!-- Section 2 -->
+        
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-blog"></i>
+                </div>
+            <div class="info">
+            <h2>Website Design</h2>
             <p>Rullup: Examples of Rollup we design it</p>
+    
+    </div>
         </div>
-        <!-- Feature 3 -->
-        <div class="feature">
-            <img src="img/business card.jpg" alt="Feature 2 Image">
-            <h2>Business Card Design</h2>
+        <!-- Section 3 -->
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-video"></i>
+                   </div>
+            <div class="info">
+            <h2>Video Maker</h2>
             <p>Business Card: Examples of our work</p>
         </div>
-       
     </div>
+
+       
+    </section>
+</div>
+
+
+
+
+     <!--Sections -->
+     <section class="Sections" id="Sections">
+        <h2 class="title">Sections</h2>
+        <!-- Section 1 -->
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <div class="info">
+            <h2>Graphic Design</h2>
+            <p>Logo Design: Examples of our work</p>
+                </div>
+            
+        </div>
+        <!-- Section 2 -->
+        
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-blog"></i>
+                </div>
+            <div class="info">
+            <h2>Website Design</h2>
+            <p>Rullup: Examples of Rollup we design it</p>
+    
+    </div>
+        </div>
+        <!-- Section 3 -->
+        <div class="Section">
+            <div class="icon">
+                <i class="fa-solid fa-video"></i>
+                   </div>
+            <div class="info">
+            <h2>Video Maker</h2>
+            <p>Business Card: Examples of our work</p>
+        </div>
+    </div>
+
+       
+    </section>
 </div>
 <!-- About section -->
-<div class="about">
+<section class="about" id="about">
     <h2>About This Project</h2>
     <p>This project concerns the design of a website for a company that designs logos, posters, personal cards, etc. We rely on a set of guidelines or standards in designing the website according to the tasks directed by the Alx software engineering program. The truth is that it is an experience that can be said to be more than wonderful. We gain experience through it in completing work and solving problems seriously and amazingly. </p>
     <div class="team">
         <h3>Team member</h3>
          <!-- Team Member 1 -->
-        <div class="team-member">
+        <div class="icon">
             <h4>Kaoutar EL MFAKER</h4>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/kaoutar-el-mfaker-003991134">LinkedIn Profile</a></p>
-            <p>GitHub: <a href="https://github.com/Kelmfaker">GitHub Profile</a></p>
-            <p>Twitter: <a href="https://twitter.com/kelmfaker">Twitter Profile</a></p>
+          <a href="https://www.linkedin.com/in/kaoutar-el-mfaker-003991134"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://github.com/Kelmfaker"><i class="fa-brands fa-github"></i></a>
+          <a href="https://twitter.com/elmfakerk"><i class="fa-brands fa-twitter"></i></a>
         </div>
      
         <!-- Add more team members as needed -->
     </div>
     <p>Check out the project repository on GitHub: <a href="https://github.com/Kelmfaker/portfolio-landingpage">Project Repository</a></p>
-</div>
+</section>
 <!-- Button for interaction -->
     <button id="alertButton">Click me</button>
 </body>
