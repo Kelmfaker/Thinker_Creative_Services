@@ -397,11 +397,11 @@ body{
 
 @media (max-with:300px){
 body{
-    font-size: 10px;
+    font-size: 3em;
 }
 header{
    
-    padding: 8px 10px;
+    padding: 2px 4px;
     }
     .logo{
         font-size: 0.8em;
