@@ -22,12 +22,18 @@ header {
     padding: 10px 200px;
 
 }
+header .span{
+
+    color: #f3f1f1;
+    font-size:smaller;
+}
 .logo{
     text-decoration: none;
     color: #fefefe;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.8em;
+    font-weight: 500;
+    font-size: 1.5em;
+
 
 }
 .navigation a{
@@ -47,6 +53,7 @@ padding-left: 30px;
 
 section{
     padding: 100px 200px;
+   
 }
 
 
@@ -63,16 +70,21 @@ section{
     background-attachment: fixed;
 }
 
-.description {
+.description1 {
     text-align: center;
     padding: 20px;
     background-color:#10022b;
 }
 
-.description h2{
+.description1 h2{
     color:#844f4f;
     font-size: 1.5em;
     font-weight: 600;
+}
+.description1 span{
+    color: #fefefe;
+    font-size: 1em;
+   
 }
 
 .nav {
@@ -114,28 +126,31 @@ padding-left: 30px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    transition: 0.7s ease;
 }
-.title {
-    display: flex;
-    justify-content: center;
-    color:#3e1515;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-.Section {
+.child-section {
    
     background-color: #10022b;
     width: 16.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    box-shadow: 0 5px 25px rgba(254, 191, 191, 0.15);
 border-radius: 10px;
 padding: 15px;
 margin: 15px;
 transition: 0.7s ease;
-
 }
 
-.Section:hover {
+.title {
+
+    justify-content: center;
+    color:#844f4f;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+    
+}
+
+.child-section:hover {
     transform: scale(1.1);
 }
 
@@ -147,6 +162,72 @@ transition: 0.7s ease;
 
 }
 
+.Features  {
+    background-color: #844f4f;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    transition: 0.7s ease;
+}
+
+.Feature {
+    margin-top: 30px;
+  
+}
+
+.Feature-card {
+    background-color:#630a0a;
+        border: 1px solid #490202;
+        min-height: 14em;
+        width: 20em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 15px;
+        transition: 0.7s ease;
+}
+.Feature-card:hover{
+    transform: scale(1.1);
+    border: 1.5px solid #fefefe;
+}
+
+.Feature-card:hover .feature-img {
+opacity: 0.8;
+}
+ 
+.feature-img img{
+    width: 100%;
+
+}
+
+.info-feature{
+    padding: 0.8em;
+}
+
+.small-discreption{
+    font-size: 0.8em;
+    color:#fdfafa
+}
+
+.feature-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color:#844f4f;
+}
+
+.details{
+    text-decoration: none;
+    font-size:x-small;
+    color: #fff9f9;
+}
+.details:hover{
+    color: #844f4f;
+}
 .info {
     text-align: center;
 }
@@ -158,38 +239,164 @@ transition: 0.7s ease;
     font-weight: 700;
 }
 
-.Section p {
+.child-section p {
     margin-top: 5px;
     color: #fefefe;
 }
-.about {
-    padding: 20px;
-    background-color: #68040457;
-}
 
-.about h2 {
-    text-align: center;
-}
-
-.about p {
-    text-align: justify;
+.about  {
+    background-color:#10022b;
+color: #fefefe;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    transition: 0.7s ease;
 }
 
 .team {
-        display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-.team-member {
-    text-align: center;
+   
+  
 
-    width: 30%;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
 
-.team-member h4 {
-    margin-top: 10px;
+  color: #844f4f;
+  
 }
 
-.team-member p {
-    margin-top: 5px;
+.team-card {
+    background-color:#630a0a;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 30px;
+       height: 21em;
+        max-width: 60%;
+        overflow: hidden;
+       
+        transition: 0.7s ease;
+    color: #fefefe;
+ display: flex;
+ flex-direction:row;
+ align-items: center;
+
+}
+
+.team-card:hover{
+    transform: scale(1.1);
+}
+
+.team-card:hover .team-img {
+opacity: 0.8;
+}
+ .team-img {
+    align-items: center;
+ }
+.team-img img{
+    width: 14em;
+    min-height: max-content;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+
+
+}
+
+.info-team{
+
+    background-color:#630a0a1d;
+   
+   width: 100em;
+   height: 17em;
+ 
+ 
+    overflow: hidden;
+   border-radius: 1px;
+color: #fefefe;
+display: flex;
+flex-direction:column;
+align-items: center;
+
+text-decoration: none;
+ 
+}
+
+.team-name {
+   
+   
+    text-transform: uppercase;
+    text-decoration: double;
+
+    color:#f9f5f5;
+    padding-top: 10px;
+    font-size:x-large;
+   
+}
+.icon a{
+    color: #fefefe;
+    font-size: 0.3em;
+
+ justify-content: space-between;
+
+}
+.description{
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    text-transform: capitalize;
+padding-bottom: 30px;
+}
+.description .details
+{
+    font-size: x-large;
+}
+
+footer {
+    background-color:#844f4f;
+    color: #f3f1f1;
+   
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+footer .logo{
+color: #10022b;
+font-size: 1.3em;
+  
+}
+
+@media (max-with:1023px){
+header{
+
+    padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+
+    }
+section {
+
+    padding: 80px 20px;
+}
+
+}
+
+@media (max-with:641px){
+
+body{
+    font-size: 12px;
+}
+}
+
+@media (max-with:300px){
+body{
+    font-size: 10px;
+}
 }
