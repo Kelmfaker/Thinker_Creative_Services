@@ -51,3 +51,6 @@ __I am currently focused on self-improvement and skill development, particularly
 https://docs.google.com/document/d/1qrjJvBbxQl8dr76pIKM4eKcj3Qt5f_k0473mKNjMOUE/edit?usp=sharing
 
 https://docs.google.com/document/d/1yyFuoK_UYxftyM5EACESuflDOr_E3ZteyD5H933NJQw/edit?usp=sharing
+
+https://docs.google.com/document/d/1eCoxrXnzc6mdyB_Hy9U6Tc4AUB-pLi9eaOjMXMxn3pw/edit?usp=sharing 
+
