@@ -209,7 +209,9 @@ opacity: 0.8;
 
 .small-discreption{
     font-size: 0.8em;
-    color:#fdfafa
+    color:#fdfafa;
+    text-align: justify;
+    
 }
 
 .feature-title {
@@ -226,6 +228,7 @@ opacity: 0.8;
     text-decoration: none;
     font-size:x-small;
     color: #fff9f9;
+    padding-top: 1em;
 }
 .details:hover{
     color: #844f4f;
