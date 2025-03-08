@@ -469,14 +469,14 @@ font-size: 1.3em;
         min-height: 75vh;
     }
     .description1 h2 {
-        font-size: 1.4em;
+        font-size: 1em;
     }
     .description1 span {
         font-size: 1em;
     }
     .nav a {
         font-size: 1em;
-        padding-left: 20px;
+        padding: 9px;
     }
     .button {
         width: 180px;
