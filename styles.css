@@ -65,7 +65,7 @@ section{
     display: flex;
     align-items: center;
 
-    background: url('../img/cover.jpg') no-repeat;
+    background: url('img/cover.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -165,7 +165,7 @@ transition: 0.7s ease;
 
 .Features  {
   
-    background-image: url(../img/white-recycle-paper-texture.jpg);
+    background-image: url(img/white-recycle-paper-texture.jpg);
 
     display: flex;
     justify-content: center;
@@ -279,7 +279,7 @@ padding: 30px;
 }
 
 .team-card {
-    background-image: url(../img/OLO2D90.jpg);
+    background-image: url(img/OLO2D90.jpg);
         border-bottom-left-radius: 20px;
         border-top-right-radius: 30px;
        height: 18em;
@@ -369,7 +369,7 @@ padding-bottom: 30px;
 }
 
 footer {
-background-image: url(../img/white-recycle-paper-texture.jpg);
+background-image: url(img/white-recycle-paper-texture.jpg);
     color: #f3f1f1;
    
    
