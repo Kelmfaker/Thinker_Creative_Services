@@ -91,11 +91,11 @@ section{
 .nav {
     display: flex;
     justify-content: center;
-    background-color:#3e1515;
+    background-color:darkgoldenrod;
 }
 
 .nav a {
-color:#fefefe;
+color:#10022b;
 text-decoration: none;
 font-size: 1.1em;
 font-weight: 500;
@@ -104,7 +104,7 @@ padding-left: 30px;
 
 .nav a:hover {
 
-    color:#844f4f;
+    color:#630a0a;
 }
 
 .button {
@@ -391,7 +391,6 @@ font-size: 1.3em;
     }
     .logo{
        
-        font-weight: 50;
         font-size: 0.3em;
     
     
@@ -399,8 +398,7 @@ font-size: 1.3em;
     .navigation a{
     
     
-    font-size: 0.3em;
-    font-weight: 50;
+    font-size: 0.5em;
     padding-left: 10px;
     
     }
