@@ -1,0 +1,541 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+
+header {
+    background-color: #10022b;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+header .span{
+
+    color: #f3f1f1;
+    font-size:smaller;
+}
+.logo{
+    text-decoration: none;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5em;
+
+
+}
+.navigation a{
+
+color: #fefefe;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+
+}
+
+.navigation a:hover{
+
+    color:#844f4f;
+}
+
+section{
+    padding: 100px 200px;
+   
+}
+
+
+
+.cover-image {
+    width: 10
+    0%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background: url('../img/cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.description1 {
+    text-align: center;
+    padding: 20px;
+    background-color:#10022b;
+}
+
+.description1 h2{
+    color:#844f4f;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.description1 span{
+    color: #fefefe;
+    font-size: 1em;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color:#3e1515;
+}
+
+.nav a {
+color:#fefefe;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+
+.nav a:hover {
+
+    color:#844f4f;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #4d1118d8;
+}
+.Sections {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 0.7s ease;
+}
+.child-section {
+   
+background-color: #10022b;
+width: 16.25em;
+box-shadow: 0 5px 25px rgba(1, 1, 1, 15);
+border-radius: 10px;
+padding: 15px;
+margin: 15px;
+transition: 0.7s ease;
+}
+
+.title {
+
+    justify-content: center;
+    color:#844f4f;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+    
+}
+
+.child-section:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+   
+    color: #fefefe;
+    font-size: 8em;
+    text-align: center;
+
+}
+
+.Features  {
+  
+    background-image: url(../img/white-recycle-paper-texture.jpg);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    transition: 0.7s ease;
+}
+
+.Feature {
+    margin-top: 30px;
+  
+}
+
+.Feature-card {
+    background-color:#630a0a;
+        border: 1px solid #490202;
+        min-height: 14em;
+        width: 20em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 15px;
+        transition: 0.7s ease;
+}
+.Feature-card:hover{
+    transform: scale(1.1);
+    border: 1.5px solid #fefefe;
+}
+
+.Feature-card:hover .feature-img {
+opacity: 0.8;
+}
+ 
+.feature-img img{
+    
+    width: 100%;
+
+}
+
+.info-feature{
+    padding: 0.8em;
+}
+
+.small-discreption{
+    font-size: 0.8em;
+    color:#fdfafa;
+    text-align: justify;
+    
+}
+
+.feature-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color:#ee9797;
+    text-decoration: solid;
+}
+
+.details{
+    text-decoration: none;
+    font-size:x-small;
+    color: #fff9f9;
+    padding-top: 1em;
+}
+.details:hover{
+    color: #844f4f;
+}
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    margin: 10px;
+    color: #fefefe;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.child-section p {
+    margin-top: 5px;
+    color: #fefefe;
+}
+
+.about  {
+    background-color:#10022b;
+color: #fefefe;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    transition: 0.7s ease;
+}
+
+.team {
+   
+  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+
+  color: #844f4f;
+  
+}
+
+.team-card {
+    background-image: url(../img/OLO2D90.jpg);
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 30px;
+       height: 18em;
+        max-width: 40%;
+        overflow: hidden;
+       
+        transition: 0.7s ease;
+    color: #fefefe;
+ display: flex;
+ flex-direction:row;
+ align-items: center;
+
+}
+
+.team-card:hover{
+    transform: scale(1.1);
+}
+
+.team-card:hover .team-img {
+opacity: 0.8;
+}
+ .team-img {
+    align-items: center;
+ }
+.team-img img{
+    width: 14em;
+    min-height: max-content;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+
+
+}
+
+.info-team{
+
+    background-color:#630a0a1d;
+   
+   width: 100em;
+   height: 17em;
+ 
+ 
+    overflow: hidden;
+   border-radius: 1px;
+color: #fefefe;
+display: flex;
+flex-direction:column;
+align-items: center;
+
+text-decoration: none;
+ 
+}
+
+.team-name {
+   
+   
+    text-transform: uppercase;
+    text-decoration: double;
+
+    color:#f9f5f5;
+    padding-top: 10px;
+    font-size:x-large;
+   
+}
+.icon a{
+    color: #fefefe;
+    font-size: 0.3em;
+
+ justify-content: space-between;
+
+}
+
+.icon a:hover {
+    transform: scale(1.1);
+    color:#10022b;
+}
+.description{
+    text-align: justify;
+    width: 80%;
+    justify-content: center;
+    text-transform: capitalize;
+padding-bottom: 30px;
+}
+.description .details
+{
+    font-size: x-large;
+}
+
+footer {
+background-image: url(../img/white-recycle-paper-texture.jpg);
+    color: #f3f1f1;
+   
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+footer .logo{
+color: #10022b;
+font-size: 1.3em;
+  
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    header {
+        padding: 10px 20px;
+    }
+    section {
+        padding: 50px 20px;
+    }
+    .cover-image {
+        min-height: 50vh;
+    }
+    .description1 h2 {
+        font-size: 1.2em;
+    }
+    .description1 span {
+        font-size: 0.9em;
+    }
+    .nav a {
+        font-size: 0.9em;
+        padding-left: 10px;
+    }
+    .button {
+        width: 150px;
+        padding: 8px;
+    }
+    .child-section {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .icon {
+        font-size: 5em;
+    }
+    .feature-title {
+        font-size: 1em;
+    }
+    .Feature-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .info h2 {
+        font-size: 1em;
+    }
+    .team {
+        flex-direction: column;
+        width: 100%;
+    }
+    .team-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 10px 50px;
+    }
+    section {
+        padding: 50px 50px;
+    }
+    .cover-image {
+        min-height: 75vh;
+    }
+    .description1 h2 {
+        font-size: 1.4em;
+    }
+    .description1 span {
+        font-size: 1em;
+    }
+    .nav a {
+        font-size: 1em;
+        padding-left: 20px;
+    }
+    .button {
+        width: 180px;
+        padding: 9px;
+    }
+    .child-section {
+        width: 48%;
+        margin: 10px 1%;
+    }
+    .icon {
+        font-size: 6em;
+    }
+    .feature-title {
+        font-size: 1.1em;
+    }
+    .Feature-card {
+        width: 48%;
+        margin: 10px 1%;
+    }
+    .info h2 {
+        font-size: 1.1em;
+    }
+    .team {
+        flex-direction: row;
+        width: 100%;
+    }
+    .team-card {
+        width: 48%;
+        margin: 10px 1%;
+    }
+}
+/* Media Queries */
+@media (max-width: 1200px) {
+    .team {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .team-card {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .team-img img {
+      width: 12em;
+    }
+  
+    .info-team {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .team-card {
+      max-width: 100%;
+    }
+  
+    .team-img img {
+      width: 10em;
+    }
+  
+    .info-team {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-card {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-img img {
+      width: 8em;
+    }
+  
+    .info-team {
+      width: 100%;
+      text-align: center;
+    }
+  }
