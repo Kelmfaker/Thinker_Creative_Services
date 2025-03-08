@@ -59,7 +59,8 @@ section{
 
 
 .cover-image {
-    width: 100%;
+    width: 10
+    0%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -163,7 +164,8 @@ transition: 0.7s ease;
 }
 
 .Features  {
-    background-color: #844f4f;
+  
+    background-image: url(img/white-recycle-paper-texture.jpg);
 
     display: flex;
     justify-content: center;
@@ -277,11 +279,11 @@ padding: 30px;
 }
 
 .team-card {
-    background-color:#630a0a;
+    background-image: url(img/OLO2D90.jpg);
         border-bottom-left-radius: 20px;
         border-top-right-radius: 30px;
-       height: 21em;
-        max-width: 60%;
+       height: 18em;
+        max-width: 40%;
         overflow: hidden;
        
         transition: 0.7s ease;
@@ -367,7 +369,7 @@ padding-bottom: 30px;
 }
 
 footer {
-    background-color:#844f4f;
+background-image: url(img/white-recycle-paper-texture.jpg);
     color: #f3f1f1;
    
    
