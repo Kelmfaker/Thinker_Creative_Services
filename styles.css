@@ -184,7 +184,7 @@ transition: 0.7s ease;
 
 .Feature-card {
     background-color:#f3f1f1;
-        border: 1px solid #490202;
+        border: 1px solid #f5e5e5;
         min-height: 14em;
         width: 20em;
         overflow: hidden;
@@ -194,7 +194,7 @@ transition: 0.7s ease;
 }
 .Feature-card:hover{
     transform: scale(1.1);
-    border: 1.5px solid #fefefe;
+    border: 2px solid #fefefe;
 }
 
 .Feature-card:hover .feature-img {
@@ -409,19 +409,22 @@ font-size: 1.3em;
     }
    
     .cover-image {
-        background-size:cover;
-        min-height: 50vh;
+        background-image: url(img/covermobile.jpg);
+        background-size:contain;
+        min-height: 20vh;
+        background-position: top;
 
  }
     .description1 h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .description1 span {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     .nav a {
         font-size: 0.5em;
-        padding-left: 10px;
+        padding: 5px;
+        background-size: 9px;
     }
     .button {
         width: 150px;
