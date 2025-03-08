@@ -389,11 +389,30 @@ font-size: 1.3em;
     header {
         padding: 10px 20px;
     }
+    .logo{
+       
+        font-weight: 200;
+        font-size: 0.9em;
+    
+    
+    }
+    .navigation a{
+    
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-weight: 200;
+    padding-left: 10px;
+    
+    }
     section {
         padding: 50px 20px;
     }
+   
     .cover-image {
         min-height: 50vh;
+       
+        background-size: 50%;
     }
     .description1 h2 {
         font-size: 1.2em;
@@ -402,7 +421,7 @@ font-size: 1.3em;
         font-size: 0.9em;
     }
     .nav a {
-        font-size: 0.9em;
+        font-size: 0.5em;
         padding-left: 10px;
     }
     .button {
