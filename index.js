@@ -10,13 +10,13 @@ const app = express();
 app.use(express.json());
 
 // static files from public directory
-app.use("/frontend", express.static(path.join(__dirname, "frontend")));
-app.use(express.static('frontend')); // Ensure "frontend" folder is accessible
+app.use("/docs", express.static(path.join(__dirname, "docs")));
+app.use(express.static('docs')); // Ensure "frontend" folder is accessible
 
 
 // Default route to test server status
 app.get("/", (request, response) => {
-  response.sendFile(path.join(__dirname, "/frontend", "index.html"));
+  response.sendFile(path.join(__dirname, "/docs", "index.html"));
 });
 
 // Error handling middleware
@@ -26,7 +26,7 @@ app.use((error, request, response, next) => {
 });
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "/frontend"));
+  res.sendFile(path.join(__dirname, "/docs"));
 });
 
 const PORT = process.env.PORT || 5000;
