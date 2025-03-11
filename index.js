@@ -2,6 +2,8 @@ const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
 const connectDB = require("./config/database");
+const authRouter = require("./routes/auth");
+const authMiddlewareRouters = require("./routes/authMiddlewareRoute");
 
 dotenv.config();
 connectDB();
@@ -20,6 +22,13 @@ app.use(express.static('docs')); // Ensure "frontend" folder is accessible
 app.get("/", (request, response) => {
   response.sendFile(path.join(__dirname, "/docs", "index.html"));
 });
+
+// Routes
+
+
+// Authentication Routes signup and login
+app.use("/auth", authRouter);
+
 
 // Error handling middleware
 app.use((error, request, response, next) => {

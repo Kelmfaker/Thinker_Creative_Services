@@ -24,12 +24,16 @@
                 <a href="#Sections">Services</a>
                 <a href="#about">Contact us</a>
             </nav>
+           
         
      </header>
    
     <!-- Cover image section -->
     <section class="cover-image" id="home">
-        
+        <div class="buttons-container">
+            <button id="signup-btn" onclick="redirectToSignup()">Signup</button>
+            <button id="login-btn" onclick="redirectToLogin()">Login</button>
+          </div>
         </section>
         <nav class="nav">
             <a href="index.html">Accueil</a>
@@ -43,7 +47,7 @@
         </nav>
     <!-- Description section -->
     <section class="description1">
-        <h2>Hi, I am Kaoutar <br><span> Welcome to my Portfolio as a Web developer and a Graphic Designer</span> </h2>
+        <h2><span> Welcome to my Portfolio as a Web developer and a Graphic Designer</span> </h2>
     </div>
     </section>
      <!-- Navigation bar 
@@ -256,5 +260,17 @@
 
 
  </footer>
+
+ <script>
+    // Redirect to the signup page
+    function redirectToSignup() {
+      window.location.href = "/authentication/signup.html";
+    }
+
+    // Redirect to the login page
+    function redirectToLogin() {
+      window.location.href = "/authentication/login.html";
+    }
+  </script>
 </body>
 </html>

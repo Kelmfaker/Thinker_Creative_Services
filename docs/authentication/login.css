@@ -10,7 +10,7 @@
     flex-direction: column;
     margin-left: 500px;
     background-image: url(/frontend/src/img/tourists-go-up-hill-sunrise.jpg);
-    background-color:rgb(38, 2, 2);
+    background-color:#1e3f66;
     color: #ddd;
     border-radius: 1%;
 }
