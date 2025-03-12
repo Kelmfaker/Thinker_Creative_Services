@@ -19,7 +19,7 @@ document.getElementById('signup-form').addEventListener('submit', async (e) => {
 
     if (response.ok) {
       alert('Successfully signed up!');
-      window.location.href = "/public/authentication/login.html";
+      window.location.href = "/docs/authentication/login.html";
     } else {
       const error = await response.json();
       alert(`Error: ${error.message}`);

@@ -16,7 +16,7 @@ const user = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ["member", "needer"],
+        enum: ["admin", "client"],
         required: true
     },
     phone: {
@@ -29,4 +29,4 @@ const user = new mongoose.Schema({
     }
 }, { timestamps: true });
 
-module.exports = mongoose.model("User", user);
+module.exports = mongoose.model("user", user);  

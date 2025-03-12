@@ -15,13 +15,10 @@ app.use(express.json());
 
 // static files from public directory
 app.use("/docs", express.static(path.join(__dirname, "docs")));
-app.use(express.static('docs')); // Ensure "frontend" folder is accessible
+app.use(express.static('docs')); // Ensure "docs" folder is accessible
 
 
-// Default route to test server status
-app.get("/", (request, response) => {
-  response.sendFile(path.join(__dirname, "/docs", "index.html"));
-});
+
 
 // Routes
 
@@ -29,6 +26,13 @@ app.get("/", (request, response) => {
 // Authentication Routes signup and login
 app.use("/auth", authRouter);
 
+// memberboard or neederboard routes after login
+app.use("/board", authMiddlewareRouters);
+
+// Default route to test server status
+app.get("/", (request, response) => {
+  response.sendFile(path.join(__dirname, "/docs", "index.html"));
+});
 
 // Error handling middleware
 app.use((error, request, response, next) => {

@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("token", data.token);
 
       // Redirect based on role
-      if (data.role === "member") {
-        window.location.href = "/frontend/src/memberboard-pages/memberboard.html";
-      } else if (data.role === "needer") {
-        window.location.href = "/frontend/public/Needers_dashboard/home.html";
+      if (data.role === "admin") {
+        window.location.href = "/docs/admindashboard/admin.html";
+      } else if (data.role === "client") {
+        window.location.href = "/docs/clientdashboard/client.html";
       } else {
         alert("Unknown role: " + data.role);
       }

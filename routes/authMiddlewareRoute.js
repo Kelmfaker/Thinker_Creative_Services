@@ -4,12 +4,12 @@ const router = express.Router();
 
 //Route to memberboard
 router.get('/admin', authMiddleware(['admin']), (req, res) => {
-    res.json({ message: `Welcome to the memberboard, ${req.user.name}!` });
+    res.json({ message: `Welcome to the adminboard, ${req.user.name}!` });
 });
 
 //route to neederboard
 router.get('/client', authMiddleware(['client']), (req, res) => {
-    res.json({ message: `Welcome to the neederboard, ${req.user.name}!` });
+    res.json({ message: `Welcome to the clientboard, ${req.user.name}!` });
 });
 
 router.all("*", (req, res) => {
